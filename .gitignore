@@ -1,0 +1,6 @@
+# Third-party reference media (Instagram reel + frames): local only, not ours to redistribute
+research/reference/*.mp4
+research/reference/*.jpg
+research/mb-task.json.lock
+node_modules/
+.DS_Store

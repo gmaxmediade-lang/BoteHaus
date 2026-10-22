@@ -1,0 +1,326 @@
+{
+  "task_id": "T-2026-10-22-f3e013",
+  "created": "2026-10-22T19:51:48.716Z",
+  "updated": "2026-10-22T19:52:04.820Z",
+  "project": "D:\\AntiGravity\\BoteHaus",
+  "goal": {
+    "text": "Bootshaus Boeblingen 3D homepage: scroll push-in film (lake to table, shot on Sony FX) + interactive 'See it on your table' 3D dish section (option b), modeled on The Ink Experience reel",
+    "source": "owner-prompt",
+    "adaptations": [],
+    "property": {
+      "text": "A visitor feels they are arriving at the lake at dusk and walking in to a table at Bootshaus, then sees real Bootshaus dishes in 3D on their own table and wants to book",
+      "at": "2026-10-22T19:52:04.820Z",
+      "source": "builder"
+    }
+  },
+  "reference": {
+    "value": "C:/Users/maxdo/Downloads/snapgram.io_jpue9k2zgra2.mp4",
+    "evidence_class": "FILE",
+    "seen": null
+  },
+  "medium": "web",
+  "stage": "retrieve",
+  "context": {
+    "reference_kind": "screen-recording"
+  },
+  "receipts": {
+    "vault": {
+      "state": "RETRIEVED",
+      "path": "D:\\Master Brain"
+    },
+    "project": {
+      "state": "NO_MATCH",
+      "contracts": [],
+      "decisions_rows": 0,
+      "gaps": [],
+      "lessons_eligible": [],
+      "lessons_excluded": [],
+      "output_sha": "3fa01ddf70d72b65",
+      "parallel": {
+        "sessions": [],
+        "processes": [
+          "node.exe 49188"
+        ]
+      }
+    },
+    "notes": {
+      "state": "RETRIEVED",
+      "query_terms": [
+        "food",
+        "photogrammetry",
+        "dish",
+        "viewer",
+        "scroll",
+        "scrubbed",
+        "frame",
+        "sequence",
+        "push",
+        "film",
+        "restaurant"
+      ],
+      "semantic": "ollama nomic-embed-text",
+      "hits": [
+        {
+          "file": "Craft/Object-in-Page (Blender Render to Web Interaction).md",
+          "sha": "8b4e658e0958c06e",
+          "score": 0,
+          "matched": [
+            "trigger"
+          ],
+          "summary": "Object-in-Page: Blender render to web interaction",
+          "status": "active",
+          "activation": "bind-required",
+          "trigger": "frame sequence"
+        }
+      ],
+      "medium": "web",
+      "off_medium": 9,
+      "ranked_notes": [
+        "Craft/Object-in-Page (Blender Render to Web Interaction).md",
+        "Craft/Scroll & 3D Primitives (P1-P7).md",
+        "Craft/Seek-Captured Portfolio Loops (GSAP to MP4).md",
+        "Skills/Reels Intake 2026-07-24.md",
+        "Craft/Motion-Craft Prototype Library.md"
+      ],
+      "required": [
+        {
+          "file": "Craft/Object-in-Page (Blender Render to Web Interaction).md",
+          "term": "frame sequence"
+        }
+      ]
+    },
+    "clauses": {
+      "state": "NO_RELEVANT",
+      "mode": "ollama nomic-embed-text",
+      "floor": 0.6491,
+      "median": 0.5475,
+      "mean": 0.5491,
+      "dropped_weak": 0,
+      "research": [],
+      "total": 433,
+      "top_score": 0.6481,
+      "items": []
+    },
+    "vault_lessons": {
+      "state": "NO_MATCH",
+      "excluded": [
+        {
+          "file": "Lessons/L-2026-10-05-momentum-table-and-change-curve.md",
+          "id": "L-2026-10-05-momentum-table-and-change-curve",
+          "reason": "status=draft — a candidate awaiting promotion on evidence, never an active instruction"
+        },
+        {
+          "file": "Lessons/L-2026-10-05-one-master-curve-coupled-moves.md",
+          "id": "L-2026-10-05-one-master-curve-coupled-moves",
+          "reason": "status=superseded — historical record, never an active instruction (formatting is irrelevant); replaced by owner"
+        },
+        {
+          "file": "Lessons/L-2026-10-06-living-3d-product-hero.md",
+          "id": "L-2026-10-06-living-3d-product-hero",
+          "reason": "status=merged — canonicalized into the vault note Craft/Seek-Captured Portfolio Loops (GSAP to MP4).md; retrieve the note, not this draft"
+        },
+        {
+          "file": "Lessons/L-2026-10-06-turntable-one-angle-per-frame.md",
+          "id": "L-2026-10-06-turntable-one-angle-per-frame",
+          "reason": "status=merged — canonicalized into the vault note Craft/Seek-Captured Portfolio Loops (GSAP to MP4).md; retrieve the note, not this draft"
+        },
+        {
+          "file": "Lessons/L-2026-10-13-asset-verdict-by-relationship.md",
+          "id": "L-2026-10-13-asset-verdict-by-relationship",
+          "reason": "status=draft — a candidate awaiting promotion on evidence, never an active instruction"
+        }
+      ]
+    },
+    "skills": {
+      "state": "RETRIEVED",
+      "confidence": "ambiguous-model-must-choose",
+      "candidates": [
+        {
+          "id": "scroll-world",
+          "kind": "skill",
+          "mode": "model+user",
+          "score": 5
+        },
+        {
+          "id": "making-3d-videos",
+          "kind": "skill",
+          "mode": "model+user",
+          "score": 4
+        },
+        {
+          "id": "scroll-motion-effects",
+          "kind": "skill",
+          "mode": "model+user",
+          "score": 4
+        },
+        {
+          "id": "wow-asset-director",
+          "kind": "skill",
+          "mode": "model+user",
+          "score": 3
+        },
+        {
+          "id": "mobile-native",
+          "kind": "skill",
+          "mode": "model+user",
+          "score": 2
+        }
+      ]
+    },
+    "approaches": {
+      "state": "NO_MATCH",
+      "context": {
+        "medium": "web",
+        "reference_kind": "screen-recording"
+      },
+      "candidates": [],
+      "partial": [
+        {
+          "id": "A-measure-reference-timing",
+          "file": "D:\\Master Brain\\Approaches\\A-measure-reference-timing.json",
+          "signature": {
+            "medium": "web",
+            "reference_kind": "site"
+          },
+          "status": "CANDIDATE",
+          "validation": "PROVISIONAL",
+          "fingerprint": "98d5fb3d94941af4c3a6652631f8c2b84aa9bcd4128e3d7d8601d5937b3bd849",
+          "applications": {
+            "pass": 1,
+            "fail": 0,
+            "unknown": 2,
+            "no_outcome": 1
+          },
+          "reason": "signature mismatch: reference_kind"
+        }
+      ],
+      "refused": [],
+      "not_applicable": []
+    },
+    "technique_drafts": {
+      "state": "RETRIEVED",
+      "findings": [
+        {
+          "id": "L-2026-10-05-semantic-pass-before-visual",
+          "file": "D:\\Master Brain\\Lessons\\L-2026-10-05-semantic-pass-before-visual.md",
+          "title": "Explanatory motion: semantic pass before visual pass (blind \"what does this film say?\" test)",
+          "applies": "",
+          "rule_code": "blind critic prompt = \"Without being told the intended message, what does this film say?\" + \"Who is the protagonist?\"; never include the intended answer",
+          "matched": [
+            "viewer",
+            "frame",
+            "film"
+          ],
+          "provisional": true,
+          "authority": "PROVISIONAL draft finding: not an instruction; verify on this task before reuse, then record it (approach apply / learn promote)",
+          "directive": false
+        },
+        {
+          "id": "L-2026-10-05-critic-sheet-labels-outside",
+          "file": "D:\\Master Brain\\Lessons\\L-2026-10-05-critic-sheet-labels-outside.md",
+          "title": "Critic frame sheets: frame labels go outside the picture",
+          "applies": "",
+          "rule_code": "sheet cell = label strip (outside) + untouched frame",
+          "matched": [
+            "viewer",
+            "frame"
+          ],
+          "provisional": true,
+          "authority": "PROVISIONAL draft finding: not an instruction; verify on this task before reuse, then record it (approach apply / learn promote)",
+          "directive": false
+        },
+        {
+          "id": "L-2026-10-05-edge-on-cards-join-flip",
+          "file": "D:\\Master Brain\\Lessons\\L-2026-10-05-edge-on-cards-join-flip.md",
+          "title": "Extra cards that must join a flip without changing the first frame: stand them edge-on to the lens",
+          "applies": "",
+          "rule_code": "phi = atan2(cam_local.z, x - cam_local.x); rot_y = (phi - pi if sgn > 0 else phi) * (1 - flip_e(t))",
+          "matched": [
+            "frame",
+            "push"
+          ],
+          "provisional": true,
+          "authority": "PROVISIONAL draft finding: not an instruction; verify on this task before reuse, then record it (approach apply / learn promote)",
+          "directive": false
+        },
+        {
+          "id": "L-2026-10-05-reveal-before-reading-band",
+          "file": "D:\\Master Brain\\Lessons\\L-2026-10-05-reveal-before-reading-band.md",
+          "title": "L-2026-10-05-reveal-before-reading-band: A scroll reveal that is still settling inside the reading b",
+          "applies": "",
+          "rule_code": null,
+          "matched": [
+            "scroll",
+            "frame"
+          ],
+          "provisional": true,
+          "authority": "PROVISIONAL draft finding: not an instruction; verify on this task before reuse, then record it (approach apply / learn promote)",
+          "directive": false
+        },
+        {
+          "id": "L-2026-10-06-process-films-first-to-live",
+          "file": "D:\\Master Brain\\Lessons\\L-2026-10-06-process-films-first-to-live.md",
+          "title": "Process films from first version to live: what the owner kept rejecting across trailer v1>v7, step 0",
+          "applies": "",
+          "rule_code": "beat(i): dot(el_i) -> comment -> frame(rect_i.before -> rect_i.after follows change) -> change -> green -> fade; next beat starts at settle - overlap; D <= 1.2 * D_approved; payoff = argmax critic(candidates(bg x face, real asset))",
+          "matched": [
+            "frame",
+            "film"
+          ],
+          "provisional": true,
+          "authority": "PROVISIONAL draft finding: not an instruction; verify on this task before reuse, then record it (approach apply / learn promote)",
+          "directive": false
+        }
+      ],
+      "duplicates": []
+    },
+    "at": "2026-10-22T19:51:51.295Z",
+    "query": "food photogrammetry 3D dish web viewer scroll scrubbed frame sequence push-in film restaurant website"
+  },
+  "targets": [],
+  "gaps": [],
+  "skills": [],
+  "artifacts": [],
+  "verifications": [],
+  "results": [],
+  "learning": [],
+  "log": [
+    {
+      "at": "2026-10-22T19:51:48.716Z",
+      "what": "init"
+    },
+    {
+      "at": "2026-10-22T19:51:51.295Z",
+      "what": "retrieve"
+    },
+    {
+      "at": "2026-10-22T19:52:04.738Z",
+      "what": "ask"
+    },
+    {
+      "at": "2026-10-22T19:52:04.820Z",
+      "what": "property"
+    }
+  ],
+  "governor": 1,
+  "mode": "production",
+  "escalations": [],
+  "rev": 4,
+  "owner_answer": {
+    "text": "ok lets go option b use master rbain to do research then push everything to this github https://github.com/gmaxmediade-lang/BoteHaus.git",
+    "at": "2026-10-22T19:52:04.738Z",
+    "verified": false
+  },
+  "decisions": [
+    {
+      "note": null,
+      "n": 0,
+      "head": "owner answer (no brain knowledge)",
+      "text": "ok lets go option b use master rbain to do research then push everything to this github https://github.com/gmaxmediade-lang/BoteHaus.git",
+      "anchor": null,
+      "in": null,
+      "via": "ask",
+      "at": "2026-10-22T19:52:04.738Z"
+    }
+  ]
+}
